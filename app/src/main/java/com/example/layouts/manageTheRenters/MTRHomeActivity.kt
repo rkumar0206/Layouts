@@ -1,10 +1,11 @@
-package com.example.layouts
+package com.example.layouts.manageTheRenters
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.example.layouts.Functions.Companion.hide
 import com.example.layouts.Functions.Companion.show
+import com.example.layouts.R
 import kotlinx.android.synthetic.main.manage_the_renters_home_layout.*
 import kotlinx.coroutines.*
 

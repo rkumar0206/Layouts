@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MTRHomeActivity"></activity>
+        <activity android:name=".manageTheRenters.MTRAddRenterActivity"></activity>
+        <activity android:name=".manageTheRenters.MTRShowBillActivity" />
+        <activity android:name=".manageTheRenters.MTR_RenterActivity" />
+        <activity android:name=".manageTheRenters.MTRAddPaymentActivity" />
+        <activity android:name=".manageTheRenters.MTRProfileActivity" />
+        <activity android:name=".manageTheRenters.MTRHomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
