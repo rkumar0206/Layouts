@@ -1,8 +1,11 @@
 package com.example.layouts.manageTheRenters
 
+import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.layouts.Functions.Companion.closeKeyboard
 import com.example.layouts.Functions.Companion.hide
 import com.example.layouts.Functions.Companion.show
 import com.example.layouts.R
@@ -48,6 +51,12 @@ class MTRHomeActivity : AppCompatActivity(), View.OnClickListener {
 
         renterSV.show()
         renterSV.animate().translationY(0f).alpha(1f).setDuration(350).start()
+
+        searchET.requestFocus()
+        val inputMethodManager =
+            getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+
+        inputMethodManager.showSoftInput(searchET, InputMethodManager.SHOW_IMPLICIT)
     }
 
     private fun hideSearchView() {
@@ -60,9 +69,11 @@ class MTRHomeActivity : AppCompatActivity(), View.OnClickListener {
 
             delay(360)
 
-            withContext(Dispatchers.Main){
+            closeKeyboard(this@MTRHomeActivity)
+            withContext(Dispatchers.Main) {
 
                 renterSV.hide()
+                searchET.setText("")
             }
         }
     }
