@@ -68,6 +68,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(intent)
             }
 
+            mtrHomeRvAdapter.id -> {
+
+                val intent = Intent(this@MainActivity, MTRHomeRV::class.java)
+                startActivity(intent)
+            }
+
             testActivityBtn.id -> {
 
                 val intent = Intent(this@MainActivity, TestActivity::class.java)

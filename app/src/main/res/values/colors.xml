@@ -16,4 +16,6 @@
     <color name="color_orange">#FF6D00</color>
 
     <color name="black">#000000</color>
+
+    <color name="rippleColor">#B37AEEFF</color>
 </resources>

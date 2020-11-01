@@ -14,7 +14,6 @@
     <string name="address">Address</string>
 
 
-
     <string-array name="currency_symbol">
         <item>"₹"</item>
         <item>"Rs"</item>

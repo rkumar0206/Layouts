@@ -62,7 +62,7 @@
                 android:id="@+id/mtrAddPayment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_weight="1"
                 android:text="MTR Add Payment" />
 
@@ -70,7 +70,7 @@
                 android:id="@+id/mtrProfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_weight="1"
                 android:text="MTR Profile" />
 
@@ -78,7 +78,7 @@
                 android:id="@+id/mtrAddRenter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_weight="1"
                 android:text="MTR Add Renter" />
 
@@ -86,7 +86,7 @@
                 android:id="@+id/mtrRenter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_weight="1"
                 android:text="MTR Renter" />
 
@@ -94,9 +94,17 @@
                 android:id="@+id/mtrShowBill"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_weight="1"
                 android:text="MTR Show Bill" />
+
+            <Button
+                android:id="@+id/mtrHomeRvAdapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:text="Mtr_Home_RV" />
         </LinearLayout>
     </HorizontalScrollView>
 
