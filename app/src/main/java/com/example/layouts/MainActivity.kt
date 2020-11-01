@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         mtrShowBill.setOnClickListener(this)
         mtrRenter.setOnClickListener(this)
         testActivityBtn.setOnClickListener(this)
+        mtrHomeRvAdapter.setOnClickListener(this)
     }
 
     override fun onClick(p0: View?) {
